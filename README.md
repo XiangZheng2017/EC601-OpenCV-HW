@@ -15,4 +15,11 @@ The outputs of this file are the Lena.png image, broken up into several differen
 
 **2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?**
 
+RGB(20,25) = 106,122,225
+HSV(20,25) = 4,135,225
+YCC(20,25) = 151,181,103
+
+These values range from 0-225. 
+
+
 Appropriate code and output for this exercise can be found in the Exercise 2 folder.
