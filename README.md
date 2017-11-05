@@ -1,13 +1,13 @@
 # EC601-OpenCV-HW
 Boston University College of Engineering - EC601 HW3 - OpenCV Exercises
 
-##Exercise 1
+## Exercise 1
 
 **1. How does a program read the cvMat object, in particular, what is the order of the pixel structure?**
 
 The cvMat is a way to represent the pixels in an image in a matrix form. Therefore, pixel values of a cvMat file can be accessed by using the cvMatName.at<datatype>(x,y) where we can access a particular pixel at matrix entry point (x,y) where (0,0) would be the top-left entry of the matrix. Additionally, if the pixel has multiple color channels, then we could access a particular color channel by invoking cvMatName.at<datatype>{x,y)[index] where index allows us to access particular values of the color channels (i.e. RGB). This method requires that we know the datatype of the entries.
   
-  ##Exercise 2
+## Exercise 2
   
   **1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.**
 
